@@ -433,8 +433,8 @@
         <p>&copy; 2023 MYMO2 by PalmLab. All rights reserved.</p>
     </div>
 
-    <script>
-        function changeTab(tab) {
+<script>
+       function changeTab(tab) {
            // Hide all content
            document.querySelectorAll('.content').forEach(content => {
                content.classList.remove('active');
@@ -475,6 +475,6 @@
            const activeTab = document.querySelector('.tab.active').textContent.toLowerCase().includes('privacy') ? 'privacy' : 'terms';
            changeTab(activeTab);
        }
-   </script>
-</body>
+       </script>
+    </body>
 </html>
